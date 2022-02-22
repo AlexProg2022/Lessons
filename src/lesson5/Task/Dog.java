@@ -1,18 +1,18 @@
 package lesson5.Task;
 
 public class Dog extends Animal {
+    boolean b = false;
     @Override
     public void run(int length) {
-        super.run(length);
+        if (length >= 500){
+            System.out.println(b);
+
+        }
     }
 
     @Override
     public void jump(int hight) {
-        super.jump(hight);
     }
 
-    @Override
-    public void swim(int lenght) {
-        super.swim(lenght);
-    }
+
 }
